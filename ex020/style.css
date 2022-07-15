@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: rgb(104, 18, 18);
+}
+
+a:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+}
+
+.especial:hover {
+    color: aquamarine;
+    background-color: black;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.especial::before {
+    content: '>>';
+    font-weight: lighter;
+}
+
+.especial::after {
+    content: '<<';
+    font-weight: lighter;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Super';
+    src: url('Supertalls.otf') format('opentype'), url('Supertalls.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Super',Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-family: 'Super', Times, serif;
+    font-size: 3en;
+    font-weight: normal;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semântica HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        mark{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>A semântica em HTML5</h1>
+    <address>Testando algo novo</address>
+    <p>Testando agora a tag para marcar algo importante no texto(negrito usando semantica'tag strong') <strong>assim sera o negrito</strong><br>agora outro teste <em>oque sera ser</em></p>
+    <p>fazendo um texto ficar em itálico <i>assim como esse</i></p>
+    <h2>Demarcando o texto</h2>
+    <p>Agora estamos demarcando um texto <mark>este texto esta demarcado</mark></p>
+    <p>Tag que deixa o texto menor small <small>este texto esta menor agora</small></p>
+    <h2>Texto deletado</h2>
+    <p>Texto que esta ali mas o leitor não deve considerar <strike>esse por exemplo não lerrrrr</strike></p>
+    <h2>Texto inserido(sublinhado)</h2>
+    <p>Mostra que deve ser prestar atenção nessa parte do texto <ins>presta atenção aqui caralho</ins></p>
+    <h2>Texto sobrescrito e subscrito</h2>
+    <p>texto com letrinha em baixo X<sub>2</sub><br>texto com a letrinha em cima X<sup>u</sup></p>
+    <h2>Escrevendo codigo no HTML</h2>
+    <h3>Código em Python(exemplo)</h3>
+    <pre><code>
+num = int(input(Digite um numero: ))
+if num % 2 == 0:
+    print('O numero é par.')
+else:
+    print('O numero é ímpar.')
+print('FIM')
+    </code></pre>
+    <h2>Citação</h2>
+    <p>Usando citação comum com a tag q. <q> aqui esta uma citação</q></p>
+    <p>Fazendo citação com espaçamento, citação mais longa</p>
+    <blockquote cite="https://www.aen.pr.gov.br/Noticia/Multinacional-de-TI-contrata-estudantes-de-cursos-tecnicos-de-colegio-estadual-de-Assai">Doze alunos formados em cursos técnicos do Centro Estadual de Educação Profissional foram contratados como trainees pela indiana Tata Consultancy Services. Outros 45, que ainda cursam o ensino médio, serão contratados como jovem aprendiz.</blockquote>
+    <h2>Abreviações</h2>
+    <p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites</p>
+    <h2>Invertendo Texto</h2>
+    <p>Se inverte o texto usando bdo assim:<br><bdo dir="rtl">Esse texto ta todo invertido</bdo></p>
+</body>
+</html>
